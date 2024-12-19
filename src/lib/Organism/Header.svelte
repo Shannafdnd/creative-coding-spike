@@ -247,7 +247,7 @@
         width: 175px;
         margin: -100px 0 0 -50px;
         padding: 50px;
-        outline: 1px solid black;
+        outline: var(--border);
         height: 500px;
         padding-top: 125px;
         background: #F7F7F5;
@@ -263,7 +263,7 @@
     }
 
    .boven-mobile {
-        border-top: 1px solid rgba(154, 154, 154, 0.679);
+        border-top: var(--border);
         font-size: smaller;
         font-weight: bold;
    }
@@ -282,7 +282,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 20px;
-        border-bottom: 1px solid rgba(154, 154, 154, 0.679);
+        border-bottom: var(--border);
     }
 
     .mobile-datum {
@@ -293,7 +293,7 @@
         justify-content: center;
         padding: 10px;
         font-size: smaller;
-        border-bottom: 1px solid rgba(154, 154, 154, 0.679);
+        border-bottom: var(--border);
     }
 
     .mobile-search {
@@ -307,8 +307,8 @@
 
     .onder {
         background-color: var(--background-color);
-        border-bottom: 1px solid #ddd;
-        border-top: 1px solid #ddd;
+        border-bottom: var(--border);
+        border-top: var(--border);
         z-index: 1;
     }
     
@@ -426,6 +426,7 @@
 
     .boven {
         background-color: black;
+        border-bottom: var(--border);
         display: flex;
         color: white;
         justify-content: end;
